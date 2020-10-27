@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import bus from '../common/bus';
+import bus from 'common/bus';
 export default {
   data () {
     return {
@@ -71,8 +71,8 @@ export default {
           title: '表单相关',
           subs: [
             {
-              index: 'form',
-              title: '基本表单'
+              index: 'table',
+              title: '表格'
             },
             {
               index: '3-2',
